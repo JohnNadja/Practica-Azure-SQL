@@ -13,6 +13,7 @@
 ### Introducción
 #### Azure SQL Database
 ![sql-database](https://github.com/JohnNadja/Practica-Azure-SQL/blob/main/images/sql-database-generic.png)
+
 El servicio de ***Azure SQL Database*** se basa en los principios de una base de datos, sea (o no) relacional, además los más conocidos son **Azure Database for MySQL** y **Azure Database for PostgreSQL**. Ambos servicios son tipo [PaaS](https://azure.microsoft.com/es-mx/overview/what-is-paas/). Ambos trabajan para uso básico general, pero ***Azure Database for MySQL*** tiene como característica principal de tener **Alta disponibilidad y copias de seguridad automáticas**, y ***Azure Database for PostgreSQL*** viene en 2 versiones:
  - *Un servidor único*
  - *Admición de grandes cargas de datos ([HyperScale Citus](https://docs.microsoft.com/es-mx/azure/postgresql/hyperscale/overview))*.
@@ -22,6 +23,7 @@ Para saber más sobre los objetivos de estos servicios en Azure, se puede consul
 
 ##### Azure Cosmos DB
 ![cosmos-db](https://github.com/JohnNadja/Practica-Azure-SQL/blob/main/images/azure-cosmos.png)
+
 El servicio de ***Azure Cosmos DB*** es una base de datos **no estructurada**, **no relacional** y **no SQL**. Es un servicio de tipo [PaaS](https://azure.microsoft.com/es-mx/overview/what-is-paas/) que guarda datos de manera inmediata, además de realizar consultas e inserciones de manera rápida y eficiente. Puede hacer también consultas con SQL y soporta MongoDB, Cassandra, Gemlin. Si se desea saber más, se puede consultar la siguiente [información](https://azure.microsoft.com/es-es/services/cosmos-db/).
 
 
